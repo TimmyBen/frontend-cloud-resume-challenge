@@ -1,0 +1,128 @@
+body {
+  background-color: #444;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 50px;
+  /* position: sticky;
+  top: 0px;
+  z-index: 2; */
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  font-family: "Kaisei HarunoUmi", serif;
+}
+
+h3 {
+  text-align: center;
+  font-size: 20px;
+  padding: 25px 25px 0px 25px;
+  font-family: "Kaisei HarunoUmi", serif;
+}
+
+p,
+h4 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.outer {
+  background-color: floralwhite;
+  padding: 18px;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+
+.contact,
+.certification,
+.technology {
+  padding-right: 35px;
+}
+.about p {
+  line-height: 1.8;
+}
+
+.vl {
+  border-left: 6px solid green;
+  height: 950px;
+  position: absolute;
+  left: 337px;
+  margin-left: -3px;
+  top: 234px;
+}
+
+.hr1 {
+  height: 5px;
+  background-color: dodgerblue;
+}
+
+.hr2 {
+  height: 5px;
+  background-color: green;
+}
+
+.ft {
+  padding: 1em 0 5em 0;
+  font-size: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact,
+.certification,
+.technology {
+  border-bottom: 5px solid green;
+}
+
+.about,
+.education,
+.col-expr {
+  border-bottom: 5px solid dodgerblue;
+}
+@media only screen and (min-width: 768px) {
+  .about,
+  .education,
+  .experience,
+  .projects {
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .contact,
+  .certification,
+  .technology {
+    text-align: right;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .row {
+    padding-top: 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .col-md-9 .row {
+    padding-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .experience {
+    border-bottom: 5px solid #ff1e1e;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about,
+  .education,
+  .experience,
+  .projects,
+  .contact,
+  .certification,
+  .technology {
+    padding-top: 12px;
+  }
+}
