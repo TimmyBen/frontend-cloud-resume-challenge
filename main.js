@@ -1,4 +1,4 @@
-visitorsNo = document.getElementById("count");
+let visitorsNo = document.getElementById("count");
 
 const endpoint =
   "https://t25llbvtaf.execute-api.us-east-1.amazonaws.com/default/LambdaFunction001";
